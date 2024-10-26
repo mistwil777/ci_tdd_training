@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-import pytest 
 from app.main import add_numbers
-
-# def test_add_numbers():
-#     assert add_numbers(2, 5) == 7
-#     assert add_numbers(2, 2) == 4
-#     assert add_numbers(-1, 3) == 2
     
 class TestAddNumbers(unittest.TestCase):
 
